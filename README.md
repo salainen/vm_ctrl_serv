@@ -16,6 +16,7 @@ Server example:
 
 Client example:
 *client.py --port 50505 --server 192.168.100.1*
+
 --port is the listening port on the server machine, --server is the server address.
 
 Currently supports only sending Control keypress. I initially wrote this tool for running a VoIP software (TeamSpeak / Discord) on a virtual machine, so there's a bit of isolation with regards the host machine.
